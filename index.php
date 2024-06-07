@@ -3,6 +3,11 @@ error_reporting(-1);
 require_once 'templates/connect.php';
 require_once 'templates/functions.php';
 // session_start();
+
+$query = "SELECT * FROM `users`";
+$res = $pdo->query($query);
+$data = $res->fetch();
+
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +23,10 @@ require_once 'templates/functions.php';
 <body>
     <div class="wrapper">
         <div class="container">
-
+            <p>Имя: <?= $data['name'] ?></p>
+            <p>Возраст: <?= $data['age'] ?></p>
+            <p>Дата регистрации: <?= $data['date_reg'] ?></p>
+            <hr>
         </div>
     </div>
 </body>
