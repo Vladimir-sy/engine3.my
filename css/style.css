@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background: url('/images/backgrounds/background_6.jpg');
+    background-size: cover auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.container {
+    display: block;
+}
