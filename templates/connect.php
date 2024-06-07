@@ -17,7 +17,7 @@ $pdo = @new PDO($dsn, $user, $pass, $options);
 // TODO -------------------  -------------------------------
 
 // TODO ------------------- Подключение к БД (MySQLi) -------------------------------
-/* $connect = new mysqli($host, $user, $pass, $db);
+/* $connect = @new mysqli($host, $user, $pass, $db);
 if ($connect->connect_error) {
     die('Ошибка подключения к БД!' . $connect->connect_error);
 }

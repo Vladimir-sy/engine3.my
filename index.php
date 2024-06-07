@@ -8,6 +8,8 @@ $query = "SELECT * FROM `users`";
 $res = $pdo->query($query);
 $data = $res->fetch();
 
+$write = "INSERT INTO `users` SET `login` = 'gleb', `pass` = 'Gleb', `name` = 'Gleb', `age` = 25";
+$pdo->exec($write);
 ?>
 
 <!DOCTYPE html>
