@@ -6,7 +6,7 @@
 /**
  * Функция отладки
  *
- * @param data $data
+ * @param $data
  * @return array
  */
 function debug($data)
@@ -31,7 +31,7 @@ function debug2($data, ...$data2)
 
 /**
  * Функция отладки
- * * @param data $data
+ * * @param $data
  * @return array
  */
 function debug3($data)
