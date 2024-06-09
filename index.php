@@ -6,10 +6,10 @@ require_once 'templates/functions.php';
 
 $query = "SELECT * FROM `users`";
 $res = $pdo->query($query);
-$data = $res->fetch();
+$data = $res->fetchAll();
 
-$write = "INSERT INTO `users` SET `login` = 'gleb', `pass` = 'Gleb', `name` = 'Gleb', `age` = 25";
-$pdo->exec($write);
+/* $write = "INSERT INTO `users` SET `login` = 'gleb', `pass` = 'Gleb', `name` = 'Gleb', `age` = 25";
+$pdo->exec($write); */
 ?>
 
 <!DOCTYPE html>
@@ -25,10 +25,15 @@ $pdo->exec($write);
 <body>
     <div class="wrapper">
         <div class="container">
-            <p>Имя: <?= $data['name'] ?></p>
+            <!-- <p>Имя: <?= $data['name'] ?></p>
             <p>Возраст: <?= $data['age'] ?></p>
             <p>Дата регистрации: <?= $data['date_reg'] ?></p>
-            <hr>
+            <hr> -->
+        </div>
+        <div class="container">
+            <?php foreach ($data as $key => $value) : ?>
+                <!-- <p>Name: <?= $value['login'] . ',' . $value['pass'] . ',' . $value['name'] . ',' . $value['age'] . ',' . $value['date_reg'] ?></p> -->
+            <?php endforeach; ?>
         </div>
     </div>
 </body>
