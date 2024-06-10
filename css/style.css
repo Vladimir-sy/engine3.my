@@ -1,9 +1,9 @@
-* {
+/*  {
     margin: 0;
     padding: 0;
-    /* border: none; */
+    border: none;
     box-sizing: border-box;
-}
+} */
 
 html,
 body {
@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-.wrapper {
+/* .wrapper {
     max-width: 1200px;
     min-width: 320px;
     height: 100%;
@@ -26,4 +26,4 @@ body {
 .container {
     display: block;
     flex-basis: 30%;
-}
+} */

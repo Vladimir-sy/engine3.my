@@ -60,5 +60,6 @@ $param = [
     </div>
 </body>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="bootstrap_5.3.3/js/bootstrap.bundle.min.js"></script>
 
 </html>
