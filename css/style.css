@@ -5,24 +5,79 @@
     box-sizing: border-box;
 } */
 
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+@font-face {
+    font-family: 'Comfortaa-VariableFont_wght';
+    src: url(/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
 html,
 body {
     height: 100%;
     background-image: url('/images/backgrounds/background_10.jpg');
     background-size: cover;
+
+    font-family: 'Comfortaa-VariableFont_wght';
+
 }
 
 .wrapper {
     min-height: 100%;
     background-image: url(/images/backgrounds/fon8.gif);
-    min-width: 291px;
+    min-width: 320px;
+    padding: 0;
 }
 
-.hqader {
-    min-height: 200px;
+
+/* ! -------------------------------- HEADER style -------------------------------- */
+.header {
+    background-color: #11acac;
+    font-size: 20px;
 }
 
-.header-logotype a {
-    background-image: url('/images/logo/logo72.png');
-    background-size: cover;
+.navbar a {
+    color: aliceblue;
 }
+
+.header-logo {
+    font-size: 26pt;
+}
+
+.header-logo:hover {
+    opacity: .7;
+}
+
+ul.dropdown-menu {
+    background-color: #36d9d9;
+}
+
+a.dropdown-item {
+    font-size: 20px;
+}
+
+/* ! -------------------------------- MAIN style -------------------------------- */
+.main {}
+
+/* ! -------------------------------- FOOTER style -------------------------------- */
+.footer {
+    height: 100px;
+    background-color: rgb(140, 139, 139);
+    color: aliceblue;
+}
+
+.footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+/* ! -------------------------------- GLOBAL style -------------------------------- */
+/* ! -------------------------------- GLOBAL style -------------------------------- */
