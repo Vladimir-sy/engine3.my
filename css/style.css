@@ -66,14 +66,25 @@ a.dropdown-item:hover {
 }
 
 .carousel-caption-edit {
+    width: max-content;
     position: absolute;
     right: 15%;
     bottom: 0.2rem;
     left: 15%;
-    padding-top: 1.25rem;
+    padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
+    background-color: rgba(140, 139, 139, .7);
+}
+
+.carousel-caption-edit h1,
+.carousel-caption-edit h2,
+.carousel-caption-edit h3,
+.carousel-caption-edit h4,
+.carousel-caption-edit h5,
+.carousel-caption-edit h6 {
+    margin: 0;
 }
 
 /* ! -------------------------------- BLOCK-CONTENT style -------------------------------- */
