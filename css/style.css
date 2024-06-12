@@ -28,7 +28,6 @@ body {
     padding: 0;
 }
 
-
 /* ! -------------------------------- HEADER style -------------------------------- */
 .header {
     background-color: #11acac;
@@ -48,15 +47,48 @@ body {
 }
 
 ul.dropdown-menu {
-    background-color: #36d9d9;
+    background-color: #11acac;
 }
 
 a.dropdown-item {
     font-size: 20px;
 }
 
+a.dropdown-item:hover {
+    background-color: #11acac;
+}
+
+/* ! -------------------------------- SLIDER style -------------------------------- */
+.carousel,
+.carousel-inner,
+.carousel-item {
+    border-radius: 5px;
+}
+
+.carousel-caption-edit {
+    position: absolute;
+    right: 15%;
+    bottom: 0.2rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 0.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* ! -------------------------------- BLOCK-CONTENT style -------------------------------- */
+
+
 /* ! -------------------------------- MAIN style -------------------------------- */
-.main {}
+.main p {
+    margin: 0;
+}
+
+/* ! -------------------------------- ASIDE style -------------------------------- */
+
+.aside p {
+    margin: 0;
+}
 
 /* ! -------------------------------- FOOTER style -------------------------------- */
 .footer {
@@ -66,13 +98,24 @@ a.dropdown-item {
 }
 
 .footer h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6 {
     margin: 0;
 }
+
+.footer a {
+    /* display: block; */
+    font-size: 22px;
+    ;
+}
+
+.footer a:hover {
+    color: #102222;
+}
+
 
 /* ! -------------------------------- GLOBAL style -------------------------------- */
 /* ! -------------------------------- GLOBAL style -------------------------------- */
