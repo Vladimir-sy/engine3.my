@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <footer class="footer container-fluid d-flex align-items-center footer p-2 flex-wrap">
     <div class="footer-about col-12 col-md-4 mb-2 mb-md-0 p-2 align-self-start">
         <h3 class="logo-text text-center text-md-start">Мой блог</h3>
@@ -38,7 +34,7 @@
         <form>
             <div class="mb-3">
                 <!-- <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label> -->
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите эл. почту (info@mail.ru)">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите e-mail (info@mail.ru)">
             </div>
             <div class="mb-3">
                 <!-- <label for="exampleInputTextArea1" class="form-label">Введите сообщение</label> -->
@@ -54,8 +50,8 @@
 </div>
 
 </body>
-<script type="text/javascript" src="/bootstrap_5.3.3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="bootstrap_5.3.3/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/5cc4ae0ce8.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 </html>
