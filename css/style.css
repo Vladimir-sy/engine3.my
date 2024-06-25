@@ -7,18 +7,17 @@
 
 /* ! -------------------------------- GLOBAL style -------------------------------- */
 @font-face {
-    font-family: 'Comfortaa-VariableFont_wght';
+    font-family: "Comfortaa-VariableFont_wght";
     src: url(/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
 }
 
 html,
 body {
     height: 100%;
-    background-image: url('/images/backgrounds/background_10.jpg');
+    background-image: url("/images/backgrounds/background_10.jpg");
     background-size: cover;
 
-    font-family: 'Comfortaa-VariableFont_wght';
-
+    font-family: "Comfortaa-VariableFont_wght";
 }
 
 .wrapper {
@@ -29,7 +28,12 @@ body {
 }
 
 *.nav-link:hover {
-    transition: all .8s;
+    transition: all 0.6s;
+}
+
+.single-post .block-author span:first-child,
+.post .block-author span:first-child {
+    margin-right: 20px;
 }
 
 /* ! -------------------------------- HEADER style -------------------------------- */
@@ -47,7 +51,7 @@ body {
 }
 
 .header-logo:hover {
-    opacity: .7;
+    opacity: 0.7;
 }
 
 ul.dropdown-menu {
@@ -79,7 +83,7 @@ a.dropdown-item:hover {
     padding-bottom: 0.2rem;
     color: #fff;
     /* text-align: center; */
-    background-color: rgba(140, 139, 139, .7);
+    background-color: rgba(140, 139, 139, 0.7);
 }
 
 .carousel-caption-edit h1,
@@ -108,12 +112,21 @@ a.dropdown-item:hover {
 }
 
 .post .nav-link {
-    color: rgba(34, 37, 41, .8);
+    color: rgba(34, 37, 41, 0.8);
 }
 
 .post .nav-link:hover {
     color: rgb(30, 106, 172);
     text-decoration: underline;
+}
+
+/* ! -------------------------------- SINGLE-POST style -------------------------------- */
+.single-post-text a {
+    text-decoration: underline;
+}
+
+.single-post-text a:hover {
+    text-decoration: none !important;
 }
 
 /* ! -------------------------------- ASIDE style -------------------------------- */
@@ -134,14 +147,14 @@ a.dropdown-item:hover {
 }
 
 .aside .search-input {
-    border: 2px solid rgba(50, 50, 50, .6);
+    border: 2px solid rgba(50, 50, 50, 0.6);
 }
 
 .aside .search-btn {
     color: rgb(50, 50, 50);
     border: 2px solid rgb(50, 50, 50);
     font-weight: 700;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .aside .search-btn:hover {
@@ -154,7 +167,6 @@ a.dropdown-item:hover {
     margin-left: 5px;
     color: rgb(36, 124, 201);
     font-weight: 700;
-
 }
 
 /* ! -------------------------------- FOOTER style -------------------------------- */
@@ -180,7 +192,7 @@ a.dropdown-item:hover {
 .footer h4,
 .footer h5 {
     padding: 5px;
-    color: rgb(46, 34, 141)
+    color: rgb(46, 34, 141);
 }
 
 .footer h6 {
@@ -196,7 +208,7 @@ a.dropdown-item:hover {
 
 .footer .socials .fab:hover {
     border: 1px solid #e8e3e3;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .footer .footer-links ul {
@@ -210,7 +222,6 @@ a.dropdown-item:hover {
 .footer .nav-link:hover {
     color: #102222;
 }
-
 
 /* ! -------------------------------- GLOBAL style -------------------------------- */
 /* ! -------------------------------- GLOBAL style -------------------------------- */
