@@ -1,9 +1,6 @@
 <?php
 
 ?>
-
-<?php require_once 'header.php'; ?>
-
 <section class="container-md col-lg-12 mb-2">
     <div class="row">
         <h2 class="text-center">Топ публикации</h2>
@@ -110,5 +107,3 @@
         </div>
     </aside>
 </section>
-
-<?php require_once 'footer.php'; ?>

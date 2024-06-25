@@ -56,4 +56,4 @@ if ((isset($_GET["do"])) && ($_GET['do'] == 'exit')) {
 $url = $_SERVER['REQUEST_URI'];
 $page = explode('/', $url);
 
-require_once 'templates/content.php';
+require_once 'templates/home.php';
