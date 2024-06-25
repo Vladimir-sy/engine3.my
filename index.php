@@ -1,7 +1,7 @@
 <?php
 error_reporting(-1);
 mb_internal_encoding("UTF-8");
-require_once 'config/connect.php';
+require_once 'configs/connect.php';
 require_once 'config/functions.php';
 // session_start();
 
