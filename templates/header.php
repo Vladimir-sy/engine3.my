@@ -1,4 +1,16 @@
 <?php
+$url = $_SERVER['REQUEST_URI'];
+$res = explode('/', $url);
+if ($url == '/') {
+    $page = 'Home';
+} else {
+    $page = substr($_SERVER['REQUEST_URI'], 1);
+    $page = basename($page);
+    $page = substr($page, 0, -4);
+    if (!preg_match("/^[a-z0-9-]{3,15}$/", $page)) {
+    }
+}
+$page_title = strtoupper($page);
 
 ?>
 
@@ -9,8 +21,8 @@
     <meta charset="UTF-8">
     <title><?= $page_title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap_5.3.3/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="/bootstrap_5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body>
@@ -29,7 +41,7 @@
                                 <a class="nav-link" aria-current="page" href="/">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="single.php">О нас</a>
+                                <a class="nav-link" href="templates/single.php">О нас</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Услуги</a>

@@ -1,5 +1,5 @@
 <?php
-
+require_once '../config/functions.php';
 ?>
 
 <?php require_once 'header.php' ?>
@@ -17,15 +17,13 @@
                 <span><i class="far fa-user"></i> Имя Автора </span>
                 <span><i class="far fa-calendar"></i> Mar 11, 2024</span>
             </div>
-
             <div class="single-post-text col-12 p-2">
                 <h3>Заголовок третьего уровня</h3>
+
                 <p class="preview-text d-block">Lorem ipsum dolor sit <a class="nav-link d-inline-block" href="#">amet consectetur</a> adipisicing elit. Aliquam tempora porro nesciunt delectus maxime, at dolore excepturi cum debitis magni molestiae iure voluptates magnam est saepe, ullam fuga quasi quo.
                     Magnam laboriosam quas aliquid magni id reprehenderit quis hic enim mollitia eaque fuga tempora nulla rerum labore dignissimos, molestiae iure non minima accusamus nihil? Eligendi sint vero aperiam animi consequuntur!</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt temporibus sequi dignissimos blanditiis minus quas reiciendis vero aut totam. Commodi fugit unde cumque quod, esse ut dolores sapiente veniam eligendi!
                     Sapiente accusantium iste, vero voluptatibus suscipit atque? Quos mollitia dolore, alias eum labore amet incidunt sed exercitationem minima provident voluptates! Rem dolor recusandae deserunt animi nesciunt dolorum! Repellendus, ipsa. Saepe.</p>
-                <?= basename($_SERVER['REQUEST_URI']); ?>
-                <?= substr($_SERVER['REQUEST_URI'], 1); ?>
             </div>
         </div>
     </main>

@@ -54,8 +54,8 @@
 </div>
 
 </body>
-<script type="text/javascript" src="bootstrap_5.3.3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/bootstrap_5.3.3/js/bootstrap.bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/5cc4ae0ce8.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
 
 </html>

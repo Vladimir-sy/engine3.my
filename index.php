@@ -32,19 +32,22 @@ $param = [
 // $result = $pdo->prepare($query);
 // $result->execute($param);
 
-$url = $_SERVER['REQUEST_URI'];
+/* $url = $_SERVER['REQUEST_URI'];
+$res = explode('/', $url);
 if ($url == '/') {
-    $page = 'Home';
+    $page = 'Главная';
 } else {
     $page = substr($_SERVER['REQUEST_URI'], 1);
     if (!preg_match("/^[a-z0-9-]{3,15}$/", $page)) {
     }
 }
 
-$page_title = strtoupper($page);
+$page_title = strtoupper($page); */
 
-if ($url == '/') {
+/*if ($url == '/') {
     require_once 'templates/content.php';
 } elseif (file_exists("templates/$page.php")) {
     require_once "templates/$page.php";
-}
+} */
+
+require_once 'templates/content.php';
