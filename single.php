@@ -1,36 +1,5 @@
 <?php
-error_reporting(-1);
-mb_internal_encoding("UTF-8");
-require_once 'config/connect.php';
-require_once 'config/functions.php';
-// session_start();
 
-// $query = "SELECT * FROM `users`";
-// $res = $pdo->query($query);
-// $data = $res->fetchAll();
-
-// $write = "INSERT INTO `users` SET `login` = 'gleb', `pass` = 'Gleb', `name` = 'Gleb', `age` = 25";
-// $pdo->exec($write);
-
-$login = 'vladimir';
-$pass = password_hash('Vladimir', PASSWORD_DEFAULT);
-$name = 'Vladimir';
-$age = 38;
-
-$param = [
-    'l' => $login,
-    'p' => $pass,
-    'n' => $name,
-    'a' => $age
-];
-
-// $query = "INSERT INTO `users`(`login`, `pass`, `name`, `age`) VALUES(?, ?, ?, ?)";
-// $result = $pdo->prepare($query);
-// $result->execute([$login, $pass, $name, $age]);
-
-// $query = "INSERT INTO `users`(`login`, `pass`, `name`, `age`) VALUES(:l, :p, :n, :a)";
-// $result = $pdo->prepare($query);
-// $result->execute($param);
 ?>
 
 <!DOCTYPE html>
@@ -60,7 +29,7 @@ $param = [
                                 <a class="nav-link" aria-current="page" href="/">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="single.php">О нас</a>
+                                <a class="nav-link" href="templates/single.php">О нас</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Услуги</a>
@@ -201,7 +170,6 @@ $param = [
                     <p><i class="fas fa-envelope"></i>&nbsp; <span> info@engine3.my</span></p>
 
                 </div>
-
                 <div class="socials p-1">
                     <h5>Соц. сети:</h5>
                     <a class="p-2" href="#"><i class="fab fa-youtube"></i></a>
