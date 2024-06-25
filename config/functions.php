@@ -62,15 +62,15 @@ function getDataAll($query)
 /* -------------------- sql queries to the database ----------------------- */
 
 /* -------------------- Main menu function ----------------------- */
-function getMenuAdmin()
+function getMenu()
 {
     $main_menu = [
         'Главная' => '/',
-        'Контакты' => '/admin/edit_contact.php',
-        'Контент' => '',
-        'Услуги' => '/admin/services.php',
-        'О нас' => '/admin/edit_about.php',
-        'Выход' => '?logout'
+        'О нас' => '/templates/about.php',
+        'Контакты' => '/templates/contacts.php',
+        'Услуги' => '/templates/services.php',
+        'Авторизация' => '/templates/auth.php',
+        'Регистрация' => '/templates/register.php'
     ];
 
     $menus = '';
