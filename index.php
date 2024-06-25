@@ -87,16 +87,16 @@ $page = explode('/', $url); */
                                 <a class="nav-link" href="templates/about.php">О нас</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.php">Услуги</a>
+                                <a class="nav-link" href="templates/services.php">Услуги</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacts.php">Контакты</a>
+                                <a class="nav-link" href="templates/contacts.php">Контакты</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i> Вход</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="auth.php">Авторизация</a></li>
-                                    <li><a class="dropdown-item" href="register.php">Регистрация</a></li>
+                                    <li><a class="dropdown-item" href="templates/auth.php">Авторизация</a></li>
+                                    <li><a class="dropdown-item" href="templates/register.php">Регистрация</a></li>
                                 </ul>
                             </li>
                             <!--  <li class="nav-item">
