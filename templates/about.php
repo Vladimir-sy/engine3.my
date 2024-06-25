@@ -1,6 +1,7 @@
 <?php
 
 ?>
+<?php require_once 'header.php'; ?>
 
 <section class="content container-fluid d-flex flex-wrap p-2 mb-2 gx-5">
     <main class="main col-12 col-md-8 p-2">
@@ -38,3 +39,5 @@
         </div>
     </aside>
 </section>
+
+<?php require_once 'footer.php'; ?>

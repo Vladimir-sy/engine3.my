@@ -56,12 +56,4 @@ if ((isset($_GET["do"])) && ($_GET['do'] == 'exit')) {
 $url = $_SERVER['REQUEST_URI'];
 $page = explode('/', $url);
 
-require_once 'templates/header.php';
-
-if ($url == '/') {
-    require_once 'templates/content.php';
-} elseif ($url == '/templates/about.php') {
-    require_once 'templates/about.php';
-}
-
-require_once 'templates/footer.php';
+require_once 'templates/content.php';
