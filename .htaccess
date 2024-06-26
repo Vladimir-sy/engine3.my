@@ -99,8 +99,8 @@ ServerSignature Off
 
 
  #Включаем обработку правил для Rewrite*
- RewriteEngine On
+ #RewriteEngine On
  #Для удобства обрезаем полный путь (от корня сервера) до корня сайта
  #RewriteBase /
  #Любой ошибочный запрос редиректится на INDEX.PHP
- RewriteRule .* index.php [L]
+ #RewriteRule .* index.php [L]
